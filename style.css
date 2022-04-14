@@ -236,40 +236,55 @@ header .navbar ul li a:hover {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem 0;
-  padding-left: 3rem;
+  margin-top: 2%;
+  /* padding: 1rem 0;
+  padding-left: 3rem; */
+  /* border: 2px solid red; */
+  height: fit-content;
 }
 
 .education .box-container .box {
-  width: 99%;
-  height: 28vw;
+  margin-top: 2%;
+  padding: 2%;
+  font-size: 1vw;
+  color: white;
   /* border: 2px solid red; */
-  margin: 4rem 1rem;
-  /* padding-left: 4rem; */
-  border-left: 0.2rem solid #fff;
-  position: relative;
   display: flex;
+  height: 35vw;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  position: relative;
   text-align: justify;
+  border-left: 0.2rem solid #fff;
+  /* width: 99%;
+  height: 28vw;
+  border: 2px solid red; 
+  margin: 4rem 1rem;
+  padding-left: 4rem; 
+  flex-wrap: nowrap;
+  /* justify-content: space-around; */
 }
 
-.education .box-container .box:hover {
-  box-shadow: 5px 10px 8px 10px #ffeb3b80;
+.education .box-container .box:hover .section-1 
+{
+  box-shadow: 5px 10px 8px 10px #e8f72080;
+}
+.education .box-container .box:hover{
+  border: 1px solid #e8f72080;
 }
 .section-1 {
   width: 40%;
   height: 100%;
-  /* border: 2px solid red; */
+  padding: 4%;
+  /* box-shadow: 5px 10px 8px 10px #a3bbb980; */
 }
 .section-2 {
-  width: 53%;
+  padding: 0% 2%;
+  width: 60%;
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 53%;
+  /* width: 53%; */
   /* border: 2px solid red; */
 }
 /* .section-2 >h3{
@@ -277,27 +292,28 @@ header .navbar ul li a:hover {
 } */
 
 .education .box-container .box span {
-  font-size: 1.3rem;
-  background: #222;
-  color: #fff;
+  /* font-size: 1.3rem; */
+  /* background: #222; */
+  /* color: #fff; */
   border-radius: 5rem;
   padding: 0.5rem 2.5rem;
 }
 
 .education .box-container .box h3 {
-  font-size: 2.7rem;
+  font-size: 2vw;
   color: #ffdc5b;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   /* font-size: 2.3rem;
   color: #fff;
   padding-top: 1rem; */
 }
 
 .education .box-container .box p {
-  line-height: 2.7rem;
-  font-size: 1.7rem;
+  /* line-height: 2vw; */
+  /* white-space: break-spaces; */
+  /* font-size: 1.7rem; */
   color: #eee;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 .education .box-container .box i {
@@ -441,7 +457,7 @@ header .navbar ul li a:hover {
 }
 /* media queries  */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
@@ -449,7 +465,7 @@ header .navbar ul li a:hover {
   .home {
     padding: 1rem 5rem;
   }
-}
+} */
 
 @media (max-width: 991px) {
   header {
