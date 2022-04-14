@@ -150,7 +150,7 @@ header .navbar ul li a:hover {
   z-index: 1000;
   display: none;
 }
-.upsec{
+.upsec {
   margin-top: 10%;
 }
 
@@ -241,12 +241,40 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-  width: 60%;
+  width: 99%;
+  height: 28vw;
+  /* border: 2px solid red; */
   margin: 4rem 1rem;
-  padding-left: 4rem;
+  /* padding-left: 4rem; */
   border-left: 0.2rem solid #fff;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: justify;
 }
+
+.education .box-container .box:hover {
+  box-shadow: 5px 10px 8px 10px #ffeb3b80;
+}
+.section-1 {
+  width: 40%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+.section-2 {
+  width: 53%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 53%;
+  /* border: 2px solid red; */
+}
+/* .section-2 >h3{
+  text-decoration: underline;
+} */
 
 .education .box-container .box span {
   font-size: 1.3rem;
@@ -257,14 +285,17 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box h3 {
-  font-size: 2.9rem;
+  font-size: 2.7rem;
+  color: #ffdc5b;
+  padding-top: 1rem;
+  /* font-size: 2.3rem;
   color: #fff;
-  padding-top: 1.5rem;
+  padding-top: 1rem; */
 }
 
 .education .box-container .box p {
   line-height: 2.7rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #eee;
   padding: 1rem 0;
 }
@@ -312,9 +343,11 @@ header .navbar ul li a:hover {
 
 .contact .row {
   display: flex;
+  flex-direction: column;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 .img_marping {
   width: 70%;
@@ -326,9 +359,9 @@ header .navbar ul li a:hover {
   margin-top: 20px;
 }
 .contact .row .content {
-  flex: 1 1 30rem;
+  /* flex: 1 1 30rem; */
   padding: 4rem;
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
 }
 
 .contact .row form {
@@ -337,9 +370,9 @@ header .navbar ul li a:hover {
   margin: 2rem;
   margin-bottom: 4rem;
 }
-.contact_me {
+/* .contact_me {
   margin-left: 36%;
-}
+} */
 .contact .row form .box {
   padding: 1.5rem;
   margin: 1rem 0;
